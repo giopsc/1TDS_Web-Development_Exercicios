@@ -1,0 +1,88 @@
+.text-primary {
+  color: royalblue;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-alert {
+  color: yellow;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-padrao {
+  color: darkgrey;
+}
+
+header, .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background-color: lightgray;
+}
+
+header {
+  background-color: skyblue;
+}
+@media screen and (max-width: 768px) {
+  header {
+    background-color: coral;
+  }
+}
+header h1 {
+  color: darkblue;
+}
+header h1:hover {
+  color: orange;
+}
+header p {
+  color: darkblue;
+}
+
+p {
+  color: green;
+}
+
+button {
+  font-size: 22px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background-color: yellow;
+  color: brown;
+}
+
+.paragr-1 {
+  font-size: 8px;
+}
+
+.paragr-2 {
+  font-size: 16px;
+}
+
+.paragr-3 {
+  font-size: 24px;
+}
+
+.paragr-4 {
+  font-size: 32px;
+}
+
+.paragr-5 {
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */
